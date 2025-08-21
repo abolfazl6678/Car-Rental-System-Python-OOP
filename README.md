@@ -3,7 +3,7 @@ Python Object-Oriented Programming project simulating an online car rental platf
 
 
 ## Overview
-This project is part of my **Python OOP Capstone Project** where I developed an **online car rental platform** using **Object-Oriented Programming (OOP)** in Python.
+This project is part of my **Python OOP Course-End Project** where I developed an **online car rental platform** using **Object-Oriented Programming (OOP)** in Python.
 
 The goal is to simulate a car rental company system where:  
 - Customers can **view available cars**  
@@ -24,7 +24,7 @@ A car rental company needs a platform to manage customer rentals. The system sho
 
 ---
 
-## Tools & Technologies Used
+## Tools & Techniques Used
 - **Programming Language:** Python  
 - **Development Environment:** Jupyter Notebook  
 - **Libraries:**  
@@ -33,7 +33,7 @@ A car rental company needs a platform to manage customer rentals. The system sho
 
 ---
 
-## Project Description
+## Project Description ???????
 The platform is built with two main modules:
 
 1. **CarRental Module**  
@@ -49,7 +49,7 @@ The platform is built with two main modules:
 
 ---
 
-## Key Tasks Performed
+## Key Tasks Performed ??? 
 
 **Car Rental System Setup**  
 - Designed `CarRental` class with inventory management  
@@ -74,14 +74,21 @@ The platform is built with two main modules:
 
 ---
 
-## Project Structure
-
+## Project Structure ??? 
+```
 Online-Car-Rental-Platform/
 ├── car_rental.py # Rental system module (OOP logic)
 ├── main.ipynb # Main notebook to run the project
-├── README.md # Project documentation
+├── data/
+│ ├── e1.csv
+│ └── e1.csv
+├── output/
+│ ├── sample_run.csv
+│ ├── e1.csv
+│ └── 
+└── README.md 
 
-
+```
 
 
 ---
