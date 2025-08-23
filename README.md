@@ -29,7 +29,7 @@ A car rental company needs a platform to manage customer rentals. The system sho
 - **Development Environment:** Jupyter Notebook  
 - **Libraries:**  
   - `datetime` → handle rental start/end time  
-  - Python OOP → classes, methods, constructors  
+  - Python OOP → modules, classes, methods, constructors  
 
 ---
 
