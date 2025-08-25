@@ -33,16 +33,15 @@ A car rental company needs a platform to manage customer rentals. The system sho
 
 ---
 
-## Project Description ???????
+## Project Description 
 The platform is built with two main modules:
 
 1. **CarRental Module**  
-   - Manage available inventory  
-   - Rental methods: `rentHourly()`, `rentDaily()`, `rentWeekly()`  
-   - Track rental time and rental mode  
-   - Handle car returns and generate bills  
+   - Monitor available inventory
+   - Request cars on hourly, daily and weekly basis
+   - Handle car returns and generate bills
 
-2. **Customer Module**  
+2. **Cust_m Module**  
    - Request cars from the company  
    - Return rented cars  
    - Interface with rental methods  
