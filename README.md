@@ -48,44 +48,36 @@ The platform is built with two main modules:
 
 ---
 
-## Key Tasks Performed ??? 
+## Key Tasks Performed 
 
-**Car Rental System Setup**  
-- Designed `CarRental` class with inventory management  
-- Defined methods for renting cars (hourly, daily, weekly)  
-- Implemented validation (e.g., positive request, stock availability)  
-
-**Rental Time Tracking & Billing**  
-- Stored rental start time  
+**CarRental_m module**  
+- User intraction for checking availability, renting and returning
+- Using method and classes defined in Cust_m module to perform the tasks
 - Used `datetime` to calculate rental duration  
 - Billing calculated based on rental mode & duration  
 
-**Customer Class**  
-- Created `Customer` class with request/return methods  
-- Managed interaction between user and rental system  
-
-**Main Application**  
-- Built a `main.ipynb` file to simulate rental scenarios  
-- Implemented a user menu:  
-  - View available cars  
-  - Rent cars (hour/day/week)  
-  - Return cars and get a bill  
-
+**Cust_m moduleg**  
+- Created available_cars class (check available cars in inventory)
+- Defined methods for renting cars (hourly, daily, weekly)
+- Created RequestCar class (hourlly, daily and weekly basis)
+- Created ReturnCar class (return cars and update inventory)
+- Stored and ypdated rental and returned car info
+- Implemented validation (e.g., positive request, stock availability)
+ 
 ---
 
-## Project Structure ??? 
+## Project Structure 
 ```
 Online-Car-Rental-Platform/
-├── car_rental.py # Rental system module (OOP logic)
-├── main.ipynb # Main notebook to run the project
-├── data/
-│ ├── e1.csv
-│ └── e1.csv
+├── CarRental_m.py # Rental system module (OOP logic)
+├── Cust_m.py 
+├── Inventory.txt
+├── Requested.txt
 ├── output/
-│ ├── sample_run.csv
-│ ├── e1.csv
-│ └── 
-└── README.md 
+│ ├── screen_shot_availability_check.png
+│ ├── screen_shot_request_cars.png
+│ └── screen_shot_return_bill.png
+└── README.md
 
 ```
 
