@@ -80,7 +80,12 @@ Online-Car-Rental-Platform/
 └── README.md
 
 ```
-
+## Steps to Run
+1. Open Visual Studio Code.
+2. Open CarRental_m.py using Visual Studio Code.
+3. Run CarRental_m.py.
+4. Follow instructions appears on VS code termial to perfrom availability check, renting and returning cars.
+5. Bill will be generated at the end of returning cars process!
 
 ---
 
