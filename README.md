@@ -1,6 +1,7 @@
 # Car-Rental-System-Python-OOP
-Python Object-Oriented Programming project simulating an online car rental platform. Demonstrates OOP concepts, inventory management, billing calculations, and DateTime handling in Jupyter Notebook.
+Python Object-Oriented Programming project simulating an online car rental platform. Demonstrates OOP concepts, inventory management, billing calculations, and DateTime handling in Visual Studio  Code (VS Code).
 
+---
 
 ## Overview
 This project is part of my **Python OOP Course-End Project** where I developed an **online car rental platform** using **Object-Oriented Programming (OOP)** in Python.
@@ -104,12 +105,12 @@ Online-Car-Rental-Platform/
 - Add **discount system** (e.g., family rental discount)  
 - Track **customer history & loyalty programs**  
 
+---
 
+## Author
 
+**Abolfazl Zolfaghari**
+[Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
 
-
-
-
-
-
+---
 
